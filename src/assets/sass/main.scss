@@ -175,7 +175,7 @@
 		letter-spacing: _size(letter-spacing-alt);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 
 		a {
 			color: inherit;
@@ -1843,6 +1843,11 @@
 			}
 		}
 	}
+
+#portfolio {
+	background-color: darken(_palette(bg), 8);
+	opacity: 0.90 !important;
+}	
 
 /* Footer */
 
