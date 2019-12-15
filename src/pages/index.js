@@ -23,17 +23,16 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                Erfahre mehr
               </a>
             </Scroll>
+            <Scroll type="id" element="one">
+              <a href="/#" className="more"/>
+            </Scroll>
           </li>
+
         </ul>
       </div>
-      <Scroll type="id" element="one">
-        <a href="#one" className="more">
-          Learn More
-        </a>
-      </Scroll>
     </section>
     <section id="one" className="wrapper style1 special">
       <div className="inner">

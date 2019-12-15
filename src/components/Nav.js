@@ -14,7 +14,10 @@ export default function Nav({ onMenuToggle = () => {} }) {
             }}
             className="menuToggle"
           >
-            <span>Menu</span>
+            <div>
+              <span className="menubar">Navigieren</span>
+              <div className="fas fa-bars fa-2x menubar"/>
+            </div>
           </a>
           <div id="menu">
             <ul>

@@ -1400,8 +1400,8 @@
 		@include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		background: _palette(accent1, bg);
-		color: _palette(accent1, fg-bold);
+		background: _palette(accent5, bg);
+		color: _palette(accent5, fg-bold);
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
@@ -1530,7 +1530,7 @@
 
 					> a {
 						border: 0;
-						color: _palette(fg-bold);
+						color: _palette(accent5, fg-bold);
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: _size(letter-spacing-alt);
@@ -1542,7 +1542,7 @@
 							position: relative;
 
 							&:after {
-								background-image: url('../images/bars.png');
+								/*background-image: url('../images/bars.png');*/
 								background-position: right center;
 								background-repeat: no-repeat;
 								content: '';
@@ -1564,9 +1564,16 @@
 						@include breakpoint('<=small') {
 							padding: 0 0 0 1.5em;
 						}
+
+						> div {
+							.menubar{
+								vertical-align: middle;
+							}
+						}
 					}
 
 					&:first-child {
+			
 						margin-left: 0;
 					}
 				}
@@ -1582,6 +1589,7 @@
 			}
 		}
 	}
+
 
 /* Banner */
 

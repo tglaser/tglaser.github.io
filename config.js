@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'TGnowldegy.me', // <title>
-  manifestName: 'TGnowledgy - Tilmann Glaser',
+  manifestName: 'TGnowledgy Tilmann Glaser',
   manifestShortName: 'TGnowledgy', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
