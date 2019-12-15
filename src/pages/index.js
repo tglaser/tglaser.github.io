@@ -7,13 +7,18 @@ import Scroll from '../components/Scroll';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+import logo_small from '../assets/img/logo_200x200.png'; 
 import config from '../../config';
 const IndexPage = () => (
-  <Layout>
+  <Layout fullMenu>
     <section id="banner">
+      <div className="inner">
+        <img src={logo_small} alt="" />
+      </div>
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
+        <p>{config.subHeading2}</p>
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
@@ -30,7 +35,6 @@ const IndexPage = () => (
         </a>
       </Scroll>
     </section>
-
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
